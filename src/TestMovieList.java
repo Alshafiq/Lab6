@@ -1,5 +1,5 @@
 import junit.framework.TestCase;
-
+//JUnit3 implementation
 
 public class TestMovieList extends TestCase{
 	
