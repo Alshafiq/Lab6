@@ -1,14 +1,20 @@
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class MovieList {
 
-	private int numberOfMovies = 0;
+	private Collection movies = new ArrayList();
 	
 	public int size() {
-		return numberOfMovies;
+		return movies.size();
 	}
 	 
 	public void add(Movie aMovie) {
-		numberOfMovies++;
+		movies.add(aMovie);
+	}
+	
+	public boolean contains(Movie aMovie) {
+		return movies.contains(aMovie);
 	}
 	
 }
